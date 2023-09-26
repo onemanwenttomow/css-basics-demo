@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #ff4a11;
+  --secondary-color: #e4e8f0;
+}
+
+body {
+  font-family: system-ui;
+  color: var(--secondary-color);
+  background-color: #282828;
+}
+
+/* Don't Repeat Yourself */
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
